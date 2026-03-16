@@ -1,8 +1,17 @@
-# 🚀 ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer
+<div align="center">
+<h1>🚀 ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer</h1>
+  <div align="center">
+  <a href="https://github.com/Lexie-YU/ViFeEdit/blob/main/LICENSE">
+    <img alt="Apache" src="https://img.shields.io/badge/License-Apache-4E94CE.svg">
+  </a>
+  <a href="https://github.com/Lexie-YU/ViFeEdit">
+    <img src="https://img.shields.io/badge/Paper-Arxiv-darkred.svg" alt="Paper">
+  </a>
+</div>
+</div>
 
 https://github.com/user-attachments/assets/67268ed2-1178-4d6d-8ece-6e4c6c7aac80
 
-<a href="https://github.com/Lexie-YU/ViFeEdit"><img src="https://img.shields.io/badge/arXiv-A42C25.svg" alt="arXiv"></a> 
 
 > **ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer**
 > <br>
