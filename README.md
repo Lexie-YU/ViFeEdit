@@ -1,5 +1,7 @@
 <div align="center">
-<h1>🚀 ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer</h1>
+<h1>🚀 ViFeEdit:
+
+ A Video-Free Tuner of Your Video Diffusion Transformer</h1>
   <div align="center">
   <a href="https://github.com/Lexie-YU/ViFeEdit/blob/main/LICENSE">
     <img alt="Apache" src="https://img.shields.io/badge/License-Apache-4E94CE.svg">
