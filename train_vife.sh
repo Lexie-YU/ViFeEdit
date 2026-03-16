@@ -1,0 +1,16 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 accelerate launch examples/wanvideo/model_training/train_vife.py \
+  --dataset_base_path /path/to/dataset \
+  --dataset_metadata_path /path/to/dataset/metadata_vife.csv \
+  --data_file_keys "video,vife_edit_video" \
+  --extra_inputs "vife_edit_video" \
+  --height 480 \
+  --width 832 \
+  --dataset_repeat 10 \
+  --model_id_with_origin_paths "Wan-AI/Wan2.1-T2V-1.3B:diffusion_pytorch_model*.safetensors,Wan-AI/Wan2.1-T2V-1.3B:models_t5_umt5-xxl-enc-bf16.pth,Wan-AI/Wan2.1-T2V-1.3B:Wan2.1_VAE.pth" \
+  --learning_rate 1e-4 \
+  --num_epochs 500 \
+  --remove_prefix_in_ckpt "pipe.dit." \
+  --output_path "/path/to/output/" \
+  --lora_base_model "dit" \
+  --lora_target_modules "spatial_attn_pos.q,spatial_attn_pos.k,spatial_attn_pos.v,spatial_attn_pos.o,spatial_attn_neg.q,spatial_attn_neg.k,spatial_attn_neg.v,spatial_attn_neg.o,ffn.0,ffn.2" \
+  --lora_rank 32
