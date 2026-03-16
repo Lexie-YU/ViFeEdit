@@ -1,6 +1,6 @@
 # 🚀 ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer
 
-
+https://github.com/user-attachments/assets/67268ed2-1178-4d6d-8ece-6e4c6c7aac80
 
 <a href="https://github.com/Lexie-YU/ViFeEdit"><img src="https://img.shields.io/badge/arXiv-A42C25.svg" alt="arXiv"></a> 
 
