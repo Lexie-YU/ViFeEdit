@@ -81,7 +81,7 @@ Diffusion Transformers (DiTs) have demonstrated remarkable scalability and quali
     video,prompt,vife_edit_video
     tar_001.png,"3D Chibi style, a cute dog is running on the grass.",src_001.png
     ```
-    Here, the `video` is for the edited video, and `vife_edit_video` is for the source video, and `prompt` is the target prompt.
+    Here, the `video` is for the edited image, and `vife_edit_video` is for the source image (for inference is the source video), and `prompt` is the target prompt.
 
    
 2. Let's start training! Make sure to modify `train_vife.sh` and configure the training data folder, output folder.
