@@ -6,7 +6,7 @@
   <a href="https://github.com/Lexie-YU/ViFeEdit/blob/main/LICENSE">
     <img alt="Apache" src="https://img.shields.io/badge/License-Apache-4E94CE.svg">
   </a>
-  <a href="https://github.com/Lexie-YU/ViFeEdit">
+  <a href="https://arxiv.org/abs/2603.15478">
     <img src="https://img.shields.io/badge/Paper-Arxiv-darkred.svg" alt="Paper">
   </a>
 </div>
@@ -101,6 +101,7 @@ Diffusion Transformers (DiTs) have demonstrated remarkable scalability and quali
 
 ## Acknowledgement
 
+We sincerely thank:
 * [Wan](https://github.com/Wan-Video/Wan2.1) for the source models.
 * [DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio) for the code base.
 * [OmniConsistency](https://huggingface.co/datasets/showlab/OmniConsistency) for consistent style transfer task training dataset and [FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) and [Qwen-Image-Edit-2509](https://huggingface.co/Qwen/Qwen-Image-Edit-2509) for other editing task training dataset generation.
@@ -110,5 +111,13 @@ Diffusion Transformers (DiTs) have demonstrated remarkable scalability and quali
 If you finds this repo is helpful, please consider citing:
 
 ```bib
-
+@misc{yu2026vifeeditvideofreetunervideo,
+      title={ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer}, 
+      author={Ruonan Yu and Zhenxiong Tan and Zigeng Chen and Songhua Liu and Xinchao Wang},
+      year={2026},
+      eprint={2603.15478},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.15478}, 
+}
 ```
