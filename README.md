@@ -111,13 +111,10 @@ We sincerely thank:
 If you finds this repo is helpful, please consider citing:
 
 ```bib
-@misc{yu2026vifeeditvideofreetunervideo,
-      title={ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer}, 
-      author={Ruonan Yu and Zhenxiong Tan and Zigeng Chen and Songhua Liu and Xinchao Wang},
-      year={2026},
-      eprint={2603.15478},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.15478}, 
+@article{yu2026vifeedit,
+  title={ViFeEdit: A Video-Free Tuner of Your Video Diffusion Transformer},
+  author={Yu, Ruonan and Tan, Zhenxiong and Chen, Zigeng and Liu, Songhua and Wang, Xinchao},
+  journal={arXiv preprint arXiv:2603.15478},
+  year={2026}
 }
 ```
